@@ -20,6 +20,10 @@ class TestBubbleSort(unittest.TestCase):
         expected_sorted_list = [-383, -24, 2, 2, 3, 5, 82, 273, 13839]
         self.assertEqual(sorted_list, expected_sorted_list)
 
+        print("Відсортований список:")
+        for element in sorted_list:
+            print(element, end=" ")
+
 
 if __name__ == "__main__":
     unittest.main()
